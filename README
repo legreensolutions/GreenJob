@@ -1,0 +1,57 @@
+ GreenJob (Simplify your Jobs)
+ -----------------------------
+
+ This is an open source effort to simplify "Jobs"
+ Jobs :: Any thing that requires a human/machine attention... HA HA HA ...
+ GreenJob will Help in Managing jobs, ie sharing Jobs with others in the system. In GreenJob there are three modules.
+
+ 1) User
+ 2) Job
+ 3) Message
+
+
+1) User
+++++++++++++++++++++++++++++++++
+I preffer the User module will be simple one. Unlike any other system no SignUp is required. On Setup a default "Admin" User is Created and the "Admin" Manages All the User. Admin can add/edit/view/disable User.
+On adding a user, a notification mail should be send to the user. The notification mail will Help user to join and Fill the profile.
+
+Default Admin User          :  admin
+Default Admin User password :  admin
+
+Attributes
+--------------------
+Username(email)
+Name
+Profile
+password
+Photo
+
+
+Features User Module
+--------------------
+1) Login
+2) Logout
+3) User add/edit/view/disable/reset password   :: [Admin]
+4) View/edit Profile
+5) Change Password
+6) Forgot Password
+
+
+A user can have many jobs.
+
+2)Job
+++++++++++++++++++++++++++++++++
+Any logged in user can create a Job for himself or for other user.
+A job may have a parent job, and may have many children
+Job also have statuses like  Assigned, Working, Rejected, Completed and Shelved
+A Job have start date and may have end date
+A Job may have estimated time and actual time
+A job may have an attached file
+A job may have many Messages with or without attached file
+
+
+3)Message
+++++++++++++++++++++++++++++++++
+Message belongs to user and have one or more recipient
+Message may belongs to job and may have attached files
+
